@@ -24,7 +24,7 @@ Steps:
 
 Exploit help:
 ```s
-$ python .\epscalate.py -h
+$ python epscalate.py -h
 
     EPSCALATE - PoC for privesc in Seqrite EPS
                 ~ 0xInfection
