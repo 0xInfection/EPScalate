@@ -1,6 +1,8 @@
 # EPScalate
 An elevation of privilege vulnerability in QuickHeal's Seqrite Enterprise Endpoint Security Solution (EPS).
 
+https://user-images.githubusercontent.com/39941993/230790056-87157751-b96c-49a6-81df-bf3126acfbd6.mp4
+
 ### Vendor and Product Details
 - __Vendor__: Quick Heal Technologies Limited
 - __Product__: Seqrite Endpoint Security (EPS)
