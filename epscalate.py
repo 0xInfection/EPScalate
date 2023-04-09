@@ -23,7 +23,7 @@
 # As a matter of fact, all of the executable shared object files are world writable.
 # Lastly, the application binaries used for the daemon process are world writable
 # which basically means any non-privileged user could overwrite the scan binaries
-# with their own malicious executable to get code executed in root content.
+# with their own malicious executable to achieve code execution as root.
 
 import os
 import struct
