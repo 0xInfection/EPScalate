@@ -224,9 +224,13 @@ def main():
     '''
     Wraps up the exploit strategy
     '''
+    print('''
+    EPSCALATE - PoC for privesc in Seqrite EPS
+                ~ 0xInfection
+    ''')
     parser = argparse.ArgumentParser(
         prog=os.path.basename(__file__),
-        usage='%s <texhnique>' % os.path.basename(__file__),
+        usage='%s -H <host>:<port> <technique_flag>' % os.path.basename(__file__),
     )
     parser.add_argument(
         '-H',
