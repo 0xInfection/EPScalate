@@ -1,5 +1,5 @@
 # EPScalate
-An elevation of privilege vulnerability in QuickHeal's Seqrite Enterprise Endpoint Security Solution (EPS).
+An elevation of privilege vulnerability in QuickHeal's Seqrite Enterprise Endpoint Security Solution (EPS). The vulnerability has been assigned a CVE ID of CVE-2023-31497.
 
 https://user-images.githubusercontent.com/39941993/230790056-87157751-b96c-49a6-81df-bf3126acfbd6.mp4
 
