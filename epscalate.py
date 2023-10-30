@@ -226,8 +226,8 @@ def main():
     Wraps up the exploit strategy
     '''
     print('''
-    EPSCALATE - PoC for privesc in Seqrite EPS
-                ~ 0xInfection
+    EPSCALATE - PoC for privesc in Seqrite EPS (CVE-2023-31497)
+                        ~ 0xInfection
     ''')
     parser = argparse.ArgumentParser(
         prog=os.path.basename(__file__),
