@@ -8,6 +8,7 @@
 # Software Link: https://www.seqrite.com/endpoint-security/seqrite-endpoint-security
 # Version: <= 7.6
 # Tested on: Debian, Ubuntu
+# CVE Assigned: CVE-2023-31497
 
 # Seqrite endpoint security with its default installation installs to
 # /usr/lib/Seqrite/ with very weak directory and file permissions granting any
